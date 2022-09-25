@@ -63,7 +63,7 @@ const USER_CONFIG = {
   USERS: [yq18787379188
     {
       // 想要发送的人的名字
-      name: '臭猪',
+      name: '臭猪0',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o_tom6JXQy0DSvF66gOZn85RdaLc',
       // 你想对他发送的模板消息的模板ID
