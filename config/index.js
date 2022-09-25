@@ -25,7 +25,7 @@ const USER_CONFIG = {
 
     /** 节假日 */
     // 下一休息日综合提醒
-    holidaytts: true,
+    holidaytts: false,
 
     /** 每日N句 */
     // 金山每日一句
@@ -60,14 +60,14 @@ const USER_CONFIG = {
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
    */
-  USERS: [yq18787379188]
+  USERS: [yq18787379188
     {
       // 想要发送的人的名字
       name: '臭猪',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o_tom6JXQy0DSvF66gOZn85RdaLc',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '今天依旧是爱你的一天',
+      useTemplateId: 'cUQdPhHyCe0d1FuLhT1lw863GddSIf_rrmN9NetDQJI',
       // 所在省份
       province: '云南',
       // 所在城市
@@ -77,7 +77,7 @@ const USER_CONFIG = {
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: 'https://ssl.ptlogin2.qq.com/jump?ptlang=2052&clientuin=1043728512&clientkey=67850A37DB984F39D0BDDEA0950ADAD76177027951686EECB704B985A7E594EC&u1=https%3A%2F%2Fuser.qzone.qq.com%2F1043728512%3FADUIN=1043728512%26ADSESSION=1664107023%26ADTAG=CLIENT.QQ.5923_MyInfo_PersonalInfo.0%26ADPUBNO=27245&source=namecardstar',
+      openUrl: '',
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -211,7 +211,7 @@ const USER_CONFIG = {
   CALLBACK_TEMPLATE_ID: '8C_xePZYuuEWpVI2SqzdvYE8k7R3x0Vy2QVB-ubA0fc',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
-  CALLBACK_USERS: [yyd56377]
+  CALLBACK_USERS: [yyd56377
     {
       // 一般都填自己
       name: '自己',
